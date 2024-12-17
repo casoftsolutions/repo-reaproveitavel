@@ -23,5 +23,6 @@ jobs:
       with:
         ambiente: Meu teste #  esse valor sera usado no arquivo cd.yaml
         versao: 520
-      secrets: inherit 
+      secrets:
+            token_acesso: ${{ secrets.MEU_SEGREDO }}  
 
