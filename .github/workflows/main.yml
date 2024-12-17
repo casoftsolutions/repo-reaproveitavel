@@ -20,7 +20,7 @@ jobs:
               run: echo "Imagem Docker construída com sucesso!"
     CD:
       needs: [CI]
-      uses: casoftsolutions/repo-deploy/.github/workflows/main.yml@a0cc42756d3de8a53545f15b65137d16066b657a
+      uses: casoftsolutions/repo-deploy/.github/workflows/main.yml@main
       with:
         ambiente: Meu teste #  esse valor sera usado no arquivo cd.yaml
         versao: 520
