@@ -1,3 +1,4 @@
+# quando rodar esse pipeline  sera chamado o pipeline do repositorio  https://github.com/casoftsolutions/repo-deploy passando os inputs e secrets
 name: Repositorio Reaproveitavel
 on: 
     push:
